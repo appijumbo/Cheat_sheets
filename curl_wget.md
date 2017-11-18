@@ -39,9 +39,9 @@ $ curl -I http://foobar      or    $ curl --head http://foobar
 $ curl http://    is itself a GET
 
 #### POST
-sending 'd'ata (e.g. a first and last name to an api called xxxxx)
+sending 'd'ata (e.g. a first and last name to an api called foobar)
 
-$ curl -d "first=Tom&last=Ormiston" http:// xxxxx
+$ curl -d "first=Tom&last=Ormiston" http:// foobar
 example 2
 $ curl -d "title=myHello&body=hello world" https://jsonplaceholder.typicode.com/posts   
 
