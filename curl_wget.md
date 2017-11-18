@@ -18,19 +18,19 @@ wget -qO- 'http://api.openweathermap.org/data/2.5/weather?q=Ellesmere Port,uk&ap
 ###
 Good for testing ReST api's
 
-$ curl http:// xxx    or say  $ curl http://localhost:3000
+$ curl http:// foobar    or say  $ curl http://localhost:3000
 -> gives script from browser
 Testing JSON responce
-$ curl http://xxxx   will give json pacge back -> BUT !
+$ curl http://foobar  will give json pacge back -> BUT !
 
 cURL info  
 https://curl.haxx.se/docs/httpscripting.html
 
 
 To get responce header 'i'nformation with the JSON package use:
-$  curl -i http://xxxx
+$  curl -i http://foobar
 and for just the 'head'er 'I'nformation, ie on its own
-$ curl -I http://xxxxx      or    $ curl --head http://xxxxx
+$ curl -I http://foobar      or    $ curl --head http://foobar
 
 
 ### To GET , POST, PUT (update), DELETE  ie http methods
@@ -49,7 +49,7 @@ $ curl -d "title=myHello&body=hello world" https://jsonplaceholder.typicode.com/
 (update)
 
 we 'request a command ' (-X) to PUT 'd'ata (PUT -d)
-$ curl -X PUT -d "first=Thomas&last=Ormiston" http:// xxxxx
+$ curl -X PUT -d "first=Thomas&last=Ormiston" http:// foobar
 
 example 2
 curl -X PUT -d "title=myHello&body=hello world" https://jsonplaceholder.typicode.com/posts/99
