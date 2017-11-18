@@ -91,7 +91,7 @@ $ curl -O http://bit.ly/2v4Dx8t
 '  -O  ' remote name  ---> Write output to a file named as the remote file
 '  -o  '  output FILE  ---> Write to FILE instead of stdout
 
-### RE-DIREDTION   -->   'L'
+### Re-direction   -->   'L'
 
 if we do
 $ curl http://google.com   
