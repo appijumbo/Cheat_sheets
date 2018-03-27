@@ -2,7 +2,9 @@
 # curl & wget
 
 
-### wget - o download an entire Web site
+## Wget
+
+### download an entire Web site
 
 In terminal
 
@@ -57,6 +59,8 @@ wget -qO- 'http://api.openweathermap.org/data/2.5/weather?q=Ellesmere Port,uk&ap
 try
 wget -qO- 'http://api.openweathermap.org/data/2.5/weather?q=Ellesmere Port,uk&appid=4595334ecc0bf10a9aa1461cc222ef14' >> wgettest2-qO-.json | python -m json.tool >> wgettest2-qO-Prettyjson.json
 
+
+## Curl
 
 ###
 Good for testing ReST api's
